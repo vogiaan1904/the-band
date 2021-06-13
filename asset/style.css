@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #wrapper {
 
@@ -24,6 +27,13 @@
 #nav li a{
     color:#fff;
     text-decoration:none ;
+    line-height: 46px;
+    padding: 0 24px;
+    display:inline-block
+}
+#nav li:hover a{
+    color:black;
+    background-color: #ccc;
 }
 #slider {
 
